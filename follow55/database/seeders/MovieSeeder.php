@@ -19,6 +19,7 @@ class MovieSeeder extends Seeder
             [
                 'poster_url' => 'https://follow55.com.br/wp-content/uploads/2025/04/Capa-Nivea-768x479.png',
                 'release_year' => 2020,
+                'details' => 'Detalhes do filme',
                 'created_by' => 2,
                 'author_id' => 1,
                 'created_at' => now(), 'updated_at' => now()
@@ -29,6 +30,7 @@ class MovieSeeder extends Seeder
             [
                 'poster_url' => 'https://follow55.com.br/wp-content/uploads/2025/04/Capa-Nivea-768x479.png',
                 'release_year' => 2021,
+                'details' => 'Detalhes do filme',
                 'created_by' => 1,
                 'author_id' => 2,
                 'created_at' => now(), 'updated_at' => now()

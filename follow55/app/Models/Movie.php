@@ -11,6 +11,7 @@ class Movie extends Model
         'title',
         'poster_url',
         'release_year',
+        'details',
         'created_by',
         'author_id',
     ];

@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('title')->unique();
             $table->string('poster_url')->nullable();
             $table->integer('release_year');
+            $table->string('details')->nullable();
             $table->foreignId('created_by')
                 ->constrained('users'); 
             $table->foreignId('author_id')
